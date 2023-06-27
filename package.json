@@ -1,0 +1,17 @@
+{
+  "name": "production-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "vercel": "vercel --prod",
+    "login": "vercel login"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "cors": "^2.8.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
